@@ -48,10 +48,10 @@
 
         raise_layer {
             bindings = <
-&mt LGUI CAPSLOCK  &kp PAUSE_BREAK  &kp HOME      &kp UP      &kp END       &kp PG_UP  &kp KP_MINUS     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH     &kp KP_NUMLOCK
-&mt LCTRL EQUAL    &kp LG(LS(S))    &kp LEFT      &kp DOWN    &kp RIGHT     &kp PG_DN  &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &mt RCTRL KP_EQUAL
-&kp LALT           &kp PRINTSCREEN  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &kp INS    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp RALT
-                                                  &trans      &trans        &trans     &trans           &trans           &trans
+&mt LGUI CAPSLOCK       &kp PAUSE_BREAK  &kp HOME      &kp UP      &kp END       &kp PG_UP  &kp KP_MINUS     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH     &kp KP_NUMLOCK
+&mt LCTRL K_PLAY_PAUSE  &kp LG(LS(S))    &kp LEFT      &kp DOWN    &kp RIGHT     &kp PG_DN  &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &mt RCTRL EQUAL
+&kp LALT                &kp PRINTSCREEN  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &kp INS    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp RALT
+                                                       &trans      &trans        &trans     &trans           &trans           &trans
             >;
         };
 
